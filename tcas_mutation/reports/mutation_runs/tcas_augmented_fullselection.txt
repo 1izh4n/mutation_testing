@@ -1,0 +1,190 @@
+pytest-gremlins: cache cleared
+============================= test session starts ==============================
+platform linux -- Python 3.14.3, pytest-9.0.2, pluggy-1.6.0
+rootdir: /projects/CISC615/tcas_mutation
+configfile: pyproject.toml
+plugins: gremlins-1.8.1, html-4.2.0, metadata-3.1.1, sugar-1.1.1
+collected 36 items
+
+test/clause/test_clause_coverage.py .....                                [ 13%]
+test/mutation/test_mutation_strength.py .........................        [ 83%]
+test/predicate/test_predicate_coverage.py .....                          [ 97%]
+test/tcas/test_altitude_separation_test.py .                             [100%]Gremlin 1/83: main_ba7e_g001 - cache miss
+Gremlin 1/83: main_ba7e_g001 - running 36/36 tests
+Gremlin 2/83: main_ba7e_g002 - cache miss
+Gremlin 2/83: main_ba7e_g002 - running 36/36 tests
+Gremlin 3/83: main_ba7e_g003 - cache miss
+Gremlin 3/83: main_ba7e_g003 - running 36/36 tests
+Gremlin 4/83: main_ba7e_g004 - cache miss
+Gremlin 4/83: main_ba7e_g004 - running 36/36 tests
+Gremlin 5/83: main_ba7e_g005 - cache miss
+Gremlin 5/83: main_ba7e_g005 - running 36/36 tests
+Gremlin 6/83: main_ba7e_g006 - cache miss
+Gremlin 6/83: main_ba7e_g006 - running 36/36 tests
+Gremlin 7/83: main_ba7e_g007 - cache miss
+Gremlin 7/83: main_ba7e_g007 - running 36/36 tests
+Gremlin 8/83: main_ba7e_g008 - cache miss
+Gremlin 8/83: main_ba7e_g008 - running 36/36 tests
+Gremlin 9/83: main_ba7e_g009 - cache miss
+Gremlin 9/83: main_ba7e_g009 - running 36/36 tests
+Gremlin 10/83: main_ba7e_g010 - cache miss
+Gremlin 10/83: main_ba7e_g010 - running 36/36 tests
+Gremlin 11/83: main_ba7e_g011 - cache miss
+Gremlin 11/83: main_ba7e_g011 - running 36/36 tests
+Gremlin 12/83: main_ba7e_g012 - cache miss
+Gremlin 12/83: main_ba7e_g012 - running 36/36 tests
+Gremlin 13/83: main_ba7e_g013 - cache miss
+Gremlin 13/83: main_ba7e_g013 - running 36/36 tests
+Gremlin 14/83: main_ba7e_g014 - cache miss
+Gremlin 14/83: main_ba7e_g014 - running 36/36 tests
+Gremlin 15/83: main_ba7e_g015 - cache miss
+Gremlin 15/83: main_ba7e_g015 - running 36/36 tests
+Gremlin 16/83: main_ba7e_g016 - cache miss
+Gremlin 16/83: main_ba7e_g016 - running 36/36 tests
+Gremlin 17/83: main_ba7e_g017 - cache miss
+Gremlin 17/83: main_ba7e_g017 - running 36/36 tests
+Gremlin 18/83: main_ba7e_g018 - cache miss
+Gremlin 18/83: main_ba7e_g018 - running 36/36 tests
+Gremlin 19/83: main_ba7e_g019 - cache miss
+Gremlin 19/83: main_ba7e_g019 - running 36/36 tests
+Gremlin 20/83: main_ba7e_g020 - cache miss
+Gremlin 20/83: main_ba7e_g020 - running 36/36 tests
+Gremlin 21/83: main_ba7e_g021 - cache miss
+Gremlin 21/83: main_ba7e_g021 - running 36/36 tests
+Gremlin 22/83: main_ba7e_g022 - cache miss
+Gremlin 22/83: main_ba7e_g022 - running 36/36 tests
+Gremlin 23/83: main_ba7e_g023 - cache miss
+Gremlin 23/83: main_ba7e_g023 - running 36/36 tests
+Gremlin 24/83: main_ba7e_g024 - cache miss
+Gremlin 24/83: main_ba7e_g024 - running 36/36 tests
+Gremlin 25/83: main_ba7e_g025 - cache miss
+Gremlin 25/83: main_ba7e_g025 - running 36/36 tests
+Gremlin 26/83: main_ba7e_g026 - cache miss
+Gremlin 26/83: main_ba7e_g026 - running 36/36 tests
+Gremlin 27/83: main_ba7e_g027 - cache miss
+Gremlin 27/83: main_ba7e_g027 - running 36/36 tests
+Gremlin 28/83: main_ba7e_g028 - cache miss
+Gremlin 28/83: main_ba7e_g028 - running 36/36 tests
+Gremlin 29/83: main_ba7e_g029 - cache miss
+Gremlin 29/83: main_ba7e_g029 - running 36/36 tests
+Gremlin 30/83: main_ba7e_g030 - cache miss
+Gremlin 30/83: main_ba7e_g030 - running 36/36 tests
+Gremlin 31/83: main_ba7e_g031 - cache miss
+Gremlin 31/83: main_ba7e_g031 - running 36/36 tests
+Gremlin 32/83: main_ba7e_g032 - cache miss
+Gremlin 32/83: main_ba7e_g032 - running 36/36 tests
+Gremlin 33/83: main_ba7e_g033 - cache miss
+Gremlin 33/83: main_ba7e_g033 - running 36/36 tests
+Gremlin 34/83: main_ba7e_g034 - cache miss
+Gremlin 34/83: main_ba7e_g034 - running 36/36 tests
+Gremlin 35/83: main_ba7e_g035 - cache miss
+Gremlin 35/83: main_ba7e_g035 - running 36/36 tests
+Gremlin 36/83: main_ba7e_g036 - cache miss
+Gremlin 36/83: main_ba7e_g036 - running 36/36 tests
+Gremlin 37/83: main_ba7e_g037 - cache miss
+Gremlin 37/83: main_ba7e_g037 - running 36/36 tests
+Gremlin 38/83: main_ba7e_g038 - cache miss
+Gremlin 38/83: main_ba7e_g038 - running 36/36 tests
+Gremlin 39/83: main_ba7e_g039 - cache miss
+Gremlin 39/83: main_ba7e_g039 - running 36/36 tests
+Gremlin 40/83: main_ba7e_g040 - cache miss
+Gremlin 40/83: main_ba7e_g040 - running 36/36 tests
+Gremlin 41/83: main_ba7e_g041 - cache miss
+Gremlin 41/83: main_ba7e_g041 - running 36/36 tests
+Gremlin 42/83: main_ba7e_g042 - cache miss
+Gremlin 42/83: main_ba7e_g042 - running 36/36 tests
+Gremlin 43/83: main_ba7e_g043 - cache miss
+Gremlin 43/83: main_ba7e_g043 - running 36/36 tests
+Gremlin 44/83: main_ba7e_g044 - cache miss
+Gremlin 44/83: main_ba7e_g044 - running 36/36 tests
+Gremlin 45/83: main_ba7e_g045 - cache miss
+Gremlin 45/83: main_ba7e_g045 - running 36/36 tests
+Gremlin 46/83: main_ba7e_g046 - cache miss
+Gremlin 46/83: main_ba7e_g046 - running 36/36 tests
+Gremlin 47/83: main_ba7e_g047 - cache miss
+Gremlin 47/83: main_ba7e_g047 - running 36/36 tests
+Gremlin 48/83: main_ba7e_g048 - cache miss
+Gremlin 48/83: main_ba7e_g048 - running 36/36 tests
+Gremlin 49/83: main_ba7e_g049 - cache miss
+Gremlin 49/83: main_ba7e_g049 - running 36/36 tests
+Gremlin 50/83: main_ba7e_g050 - cache miss
+Gremlin 50/83: main_ba7e_g050 - running 36/36 tests
+Gremlin 51/83: main_ba7e_g051 - cache miss
+Gremlin 51/83: main_ba7e_g051 - running 36/36 tests
+Gremlin 52/83: main_ba7e_g052 - cache miss
+Gremlin 52/83: main_ba7e_g052 - running 36/36 tests
+Gremlin 53/83: main_ba7e_g053 - cache miss
+Gremlin 53/83: main_ba7e_g053 - running 36/36 tests
+Gremlin 54/83: main_ba7e_g054 - cache miss
+Gremlin 54/83: main_ba7e_g054 - running 36/36 tests
+Gremlin 55/83: main_ba7e_g055 - cache miss
+Gremlin 55/83: main_ba7e_g055 - running 36/36 tests
+Gremlin 56/83: main_ba7e_g056 - cache miss
+Gremlin 56/83: main_ba7e_g056 - running 36/36 tests
+Gremlin 57/83: main_ba7e_g057 - cache miss
+Gremlin 57/83: main_ba7e_g057 - running 36/36 tests
+Gremlin 58/83: main_ba7e_g058 - cache miss
+Gremlin 58/83: main_ba7e_g058 - running 36/36 tests
+Gremlin 59/83: main_ba7e_g059 - cache miss
+Gremlin 59/83: main_ba7e_g059 - running 36/36 tests
+Gremlin 60/83: main_ba7e_g060 - cache miss
+Gremlin 60/83: main_ba7e_g060 - running 36/36 tests
+Gremlin 61/83: main_ba7e_g061 - cache miss
+Gremlin 61/83: main_ba7e_g061 - running 36/36 tests
+Gremlin 62/83: main_ba7e_g062 - cache miss
+Gremlin 62/83: main_ba7e_g062 - running 36/36 tests
+Gremlin 63/83: main_ba7e_g063 - cache miss
+Gremlin 63/83: main_ba7e_g063 - running 36/36 tests
+Gremlin 64/83: main_ba7e_g064 - cache miss
+Gremlin 64/83: main_ba7e_g064 - running 36/36 tests
+Gremlin 65/83: main_ba7e_g065 - cache miss
+Gremlin 65/83: main_ba7e_g065 - running 36/36 tests
+Gremlin 66/83: main_ba7e_g066 - cache miss
+Gremlin 66/83: main_ba7e_g066 - running 36/36 tests
+Gremlin 67/83: main_ba7e_g067 - cache miss
+Gremlin 67/83: main_ba7e_g067 - running 36/36 tests
+Gremlin 68/83: main_ba7e_g068 - cache miss
+Gremlin 68/83: main_ba7e_g068 - running 36/36 tests
+Gremlin 69/83: main_ba7e_g069 - cache miss
+Gremlin 69/83: main_ba7e_g069 - running 36/36 tests
+Gremlin 70/83: main_ba7e_g070 - cache miss
+Gremlin 70/83: main_ba7e_g070 - running 36/36 tests
+Gremlin 71/83: main_ba7e_g071 - cache miss
+Gremlin 71/83: main_ba7e_g071 - running 36/36 tests
+Gremlin 72/83: main_ba7e_g072 - cache miss
+Gremlin 72/83: main_ba7e_g072 - running 36/36 tests
+Gremlin 73/83: main_ba7e_g073 - cache miss
+Gremlin 73/83: main_ba7e_g073 - running 36/36 tests
+Gremlin 74/83: main_ba7e_g074 - cache miss
+Gremlin 74/83: main_ba7e_g074 - running 36/36 tests
+Gremlin 75/83: main_ba7e_g075 - cache miss
+Gremlin 75/83: main_ba7e_g075 - running 36/36 tests
+Gremlin 76/83: main_ba7e_g076 - cache miss
+Gremlin 76/83: main_ba7e_g076 - running 36/36 tests
+Gremlin 77/83: main_ba7e_g077 - cache miss
+Gremlin 77/83: main_ba7e_g077 - running 36/36 tests
+Gremlin 78/83: main_ba7e_g078 - cache miss
+Gremlin 78/83: main_ba7e_g078 - running 36/36 tests
+Gremlin 79/83: main_ba7e_g079 - cache miss
+Gremlin 79/83: main_ba7e_g079 - running 36/36 tests
+Gremlin 80/83: main_ba7e_g080 - cache miss
+Gremlin 80/83: main_ba7e_g080 - running 36/36 tests
+Gremlin 81/83: main_ba7e_g081 - cache miss
+Gremlin 81/83: main_ba7e_g081 - running 36/36 tests
+Gremlin 82/83: main_ba7e_g082 - cache miss
+Gremlin 82/83: main_ba7e_g082 - running 36/36 tests
+Gremlin 83/83: main_ba7e_g083 - cache miss
+Gremlin 83/83: main_ba7e_g083 - running 36/36 tests
+
+
+JSON report written to: /projects/CISC615/tcas_mutation/coverage/gremlins/gremlins.json
+======================= pytest-gremlins mutation report ========================
+
+Zapped: 83 gremlins (100%)
+Survived: 0 gremlins (0%)
+
+Cache: 0 hits, 83 misses (0% hit rate)
+
+Run with --gremlin-report=html for detailed report.
+=======================================  =======================================
+============================= 36 passed in 14.19s ==============================

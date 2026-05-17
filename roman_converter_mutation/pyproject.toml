@@ -1,0 +1,42 @@
+[project]
+name = "roman-converter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pytest>=9.0.2",
+    "pytest-cov>=7.0.0",
+    "pytest-gremlins>=1.6.0",
+    "pytest-html>=4.2.0",
+    "pytest-sugar>=1.1.1",
+]
+
+[dependency-groups]
+dev = ["ruff>=0.15.1"]
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+    "--junitxml=reports/test.xml",
+    "--html=reports/pytest_html/index.html",
+    "--self-contained-html",
+    "--cov",
+    "--cov-branch",
+    "--cov-report=term",
+    "--cov-report=html:reports/coverage_html",
+    "--cov-report=xml:reports/coverage.xml",
+]
+
+[tool.coverage.run]
+omit = ["**/__init__.py", "**/tests/**"]
+
+[tool.pytest-gremlins]
+paths = ["src/roman_converter"]
+exclude = ["**/__init__.py"]
+report = ["console", "html", "json"]
+cache = true
+
+[build-system]
+requires = ["uv_build >= 0.10.0, <0.11.0"]
+build-backend = "uv_build"

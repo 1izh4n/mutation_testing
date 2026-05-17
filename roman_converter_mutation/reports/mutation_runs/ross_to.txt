@@ -1,0 +1,102 @@
+pytest-gremlins: cache cleared
+============================= test session starts ==============================
+platform linux -- Python 3.14.3, pytest-9.0.2, pluggy-1.6.0
+rootdir: /projects/CISC615/roman_converter_mutation
+configfile: pyproject.toml
+plugins: cov-7.0.0, gremlins-1.8.1, html-4.2.0, metadata-3.1.1, sugar-1.1.1
+collected 1 item
+
+tests/roman_converter/ross/test_to_roman.py .                            [100%]Gremlin 1/41: adendulu1_8f8b_g001 - cache miss
+Gremlin 1/41: adendulu1_8f8b_g001 - running 1/1 tests
+Gremlin 2/41: adendulu1_8f8b_g002 - cache miss
+Gremlin 2/41: adendulu1_8f8b_g002 - running 1/1 tests
+Gremlin 3/41: adendulu1_8f8b_g003 - cache miss
+Gremlin 3/41: adendulu1_8f8b_g003 - running 1/1 tests
+Gremlin 4/41: adendulu1_8f8b_g004 - cache miss
+Gremlin 4/41: adendulu1_8f8b_g004 - running 1/1 tests
+Gremlin 5/41: adendulu1_8f8b_g005 - cache miss
+Gremlin 5/41: adendulu1_8f8b_g005 - running 1/1 tests
+Gremlin 6/41: adendulu1_8f8b_g006 - cache miss
+Gremlin 6/41: adendulu1_8f8b_g006 - running 1/1 tests
+Gremlin 7/41: adendulu1_8f8b_g007 - cache miss
+Gremlin 7/41: adendulu1_8f8b_g007 - running 1/1 tests
+Gremlin 8/41: adendulu1_8f8b_g008 - cache miss
+Gremlin 8/41: adendulu1_8f8b_g008 - running 1/1 tests
+Gremlin 9/41: adendulu1_8f8b_g009 - cache miss
+Gremlin 9/41: adendulu1_8f8b_g009 - running 1/1 tests
+Gremlin 10/41: adendulu1_8f8b_g010 - cache miss
+Gremlin 10/41: adendulu1_8f8b_g010 - running 1/1 tests
+Gremlin 11/41: adendulu1_8f8b_g011 - cache miss
+Gremlin 11/41: adendulu1_8f8b_g011 - running 1/1 tests
+Gremlin 12/41: adendulu1_8f8b_g012 - cache miss
+Gremlin 12/41: adendulu1_8f8b_g012 - running 1/1 tests
+Gremlin 13/41: adendulu1_8f8b_g013 - cache miss
+Gremlin 13/41: adendulu1_8f8b_g013 - running 1/1 tests
+Gremlin 14/41: adendulu1_8f8b_g014 - cache miss
+Gremlin 14/41: adendulu1_8f8b_g014 - running 1/1 tests
+Gremlin 15/41: adendulu1_8f8b_g015 - cache miss
+Gremlin 15/41: adendulu1_8f8b_g015 - running 1/1 tests
+Gremlin 16/41: adendulu1_8f8b_g016 - cache miss
+Gremlin 16/41: adendulu1_8f8b_g016 - running 1/1 tests
+Gremlin 17/41: adendulu1_8f8b_g017 - cache miss
+Gremlin 17/41: adendulu1_8f8b_g017 - running 1/1 tests
+Gremlin 18/41: adendulu1_8f8b_g018 - cache miss
+Gremlin 18/41: adendulu1_8f8b_g018 - running 1/1 tests
+Gremlin 19/41: adendulu1_8f8b_g019 - cache miss
+Gremlin 19/41: adendulu1_8f8b_g019 - running 1/1 tests
+Gremlin 20/41: adendulu1_8f8b_g020 - cache miss
+Gremlin 20/41: adendulu1_8f8b_g020 - running 1/1 tests
+Gremlin 21/41: adendulu1_8f8b_g021 - cache miss
+Gremlin 21/41: adendulu1_8f8b_g021 - running 1/1 tests
+Gremlin 22/41: adendulu1_8f8b_g022 - cache miss
+Gremlin 22/41: adendulu1_8f8b_g022 - running 1/1 tests
+Gremlin 23/41: adendulu1_8f8b_g023 - cache miss
+Gremlin 23/41: adendulu1_8f8b_g023 - running 1/1 tests
+Gremlin 24/41: adendulu1_8f8b_g024 - cache miss
+Gremlin 24/41: adendulu1_8f8b_g024 - running 1/1 tests
+Gremlin 25/41: adendulu1_8f8b_g025 - cache miss
+Gremlin 25/41: adendulu1_8f8b_g025 - running 1/1 tests
+Gremlin 26/41: adendulu1_8f8b_g026 - cache miss
+Gremlin 26/41: adendulu1_8f8b_g026 - running 1/1 tests
+Gremlin 27/41: adendulu1_8f8b_g027 - cache miss
+Gremlin 27/41: adendulu1_8f8b_g027 - running 1/1 tests
+Gremlin 28/41: adendulu1_8f8b_g028 - cache miss
+Gremlin 28/41: adendulu1_8f8b_g028 - running 1/1 tests
+Gremlin 29/41: adendulu1_8f8b_g029 - cache miss
+Gremlin 29/41: adendulu1_8f8b_g029 - running 1/1 tests
+Gremlin 30/41: adendulu1_8f8b_g030 - cache miss
+Gremlin 30/41: adendulu1_8f8b_g030 - running 1/1 tests
+Gremlin 31/41: adendulu1_8f8b_g031 - cache miss
+Gremlin 31/41: adendulu1_8f8b_g031 - running 1/1 tests
+Gremlin 32/41: adendulu1_8f8b_g032 - cache miss
+Gremlin 32/41: adendulu1_8f8b_g032 - running 1/1 tests
+Gremlin 33/41: adendulu1_8f8b_g033 - cache miss
+Gremlin 33/41: adendulu1_8f8b_g033 - running 1/1 tests
+Gremlin 34/41: adendulu1_8f8b_g034 - cache miss
+Gremlin 34/41: adendulu1_8f8b_g034 - running 1/1 tests
+Gremlin 35/41: adendulu1_8f8b_g035 - cache miss
+Gremlin 35/41: adendulu1_8f8b_g035 - running 1/1 tests
+Gremlin 36/41: adendulu1_8f8b_g036 - cache miss
+Gremlin 36/41: adendulu1_8f8b_g036 - running 1/1 tests
+Gremlin 37/41: adendulu1_8f8b_g037 - cache miss
+Gremlin 37/41: adendulu1_8f8b_g037 - running 1/1 tests
+Gremlin 38/41: adendulu1_8f8b_g038 - cache miss
+Gremlin 38/41: adendulu1_8f8b_g038 - running 1/1 tests
+Gremlin 39/41: adendulu1_8f8b_g039 - cache miss
+Gremlin 39/41: adendulu1_8f8b_g039 - running 1/1 tests
+Gremlin 40/41: adendulu1_8f8b_g040 - cache miss
+Gremlin 40/41: adendulu1_8f8b_g040 - running 1/1 tests
+Gremlin 41/41: adendulu1_8f8b_g041 - cache miss
+Gremlin 41/41: adendulu1_8f8b_g041 - running 1/1 tests
+
+
+======================= pytest-gremlins mutation report ========================
+
+Zapped: 41 gremlins (100%)
+Survived: 0 gremlins (0%)
+
+Cache: 0 hits, 41 misses (0% hit rate)
+
+Run with --gremlin-report=html for detailed report.
+=======================================  =======================================
+============================== 1 passed in 2.16s ===============================
